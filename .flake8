@@ -1,0 +1,6 @@
+[flake8]
+# Ignore specific error codes (e.g., line too long and another one)
+ignore = E501,W503
+
+# As an alternative for E501, you can just set a longer max line length
+max-line-length = 120
